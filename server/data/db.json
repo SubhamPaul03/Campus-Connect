@@ -1,0 +1,772 @@
+{
+  "payments": [
+    {
+      "id": "PAY001",
+      "label": "Semester Tuition Fee",
+      "amount": 42000,
+      "status": "paid",
+      "meta": "Semester 6 — Spring 2026",
+      "method": "UPI",
+      "date": "2026-05-01",
+      "category": "tuition"
+    },
+    {
+      "id": "PAY002",
+      "label": "Hostel Rent — Block C",
+      "amount": 18500,
+      "status": "due",
+      "meta": "June 2026 — Room 314",
+      "method": null,
+      "date": "2026-06-01",
+      "category": "hostel"
+    },
+    {
+      "id": "PAY003",
+      "label": "Library Fine",
+      "amount": 350,
+      "status": "overdue",
+      "meta": "3 books — 14 days overdue",
+      "method": null,
+      "date": "2026-05-10",
+      "category": "library"
+    },
+    {
+      "id": "PAY004",
+      "label": "Lab Material Fee",
+      "amount": 1250,
+      "status": "paid",
+      "meta": "Physics Lab — Sem 6",
+      "method": "Debit Card",
+      "date": "2026-05-05",
+      "category": "lab"
+    },
+    {
+      "id": "PAY005",
+      "label": "End-Semester Exam Fee",
+      "amount": 2500,
+      "status": "due",
+      "meta": "June 2026 Exams",
+      "method": null,
+      "date": "2026-05-28",
+      "category": "exam"
+    },
+    {
+      "id": "PAY006",
+      "label": "Sports & Recreation Fee",
+      "amount": 800,
+      "status": "paid",
+      "meta": "Annual sports complex access",
+      "method": "UPI",
+      "date": "2026-05-03",
+      "category": "tuition"
+    },
+    {
+      "id": "PAY007",
+      "label": "Workshop Registration",
+      "amount": 1500,
+      "status": "due",
+      "meta": "AI/ML Workshop — June 2026",
+      "method": null,
+      "date": "2026-06-10",
+      "category": "lab"
+    },
+    {
+      "id": "PAY008",
+      "label": "Convocation Fee",
+      "amount": 3200,
+      "status": "paid",
+      "meta": "Graduation ceremony 2026",
+      "method": "Net Banking",
+      "date": "2026-05-15",
+      "category": "exam"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF001",
+      "title": "Mid-semester results published for CS-601",
+      "tag": "read",
+      "meta": "Computer Science Department",
+      "audience": "CS — Semester 6",
+      "read": true,
+      "createdAt": "2026-05-21T10:30:00Z",
+      "priority": "high"
+    },
+    {
+      "id": "NOTIF002",
+      "title": "Hostel maintenance scheduled for Block C",
+      "tag": "alert",
+      "meta": "Hostel Administration",
+      "audience": "Block C Residents",
+      "read": false,
+      "createdAt": "2026-05-21T08:15:00Z",
+      "priority": "medium"
+    },
+    {
+      "id": "NOTIF003",
+      "title": "Library hours extended during exam period",
+      "tag": "open",
+      "meta": "Central Library",
+      "audience": "All Students",
+      "read": true,
+      "createdAt": "2026-05-20T14:00:00Z",
+      "priority": "low"
+    },
+    {
+      "id": "NOTIF004",
+      "title": "Campus placement drive by Infosys — June 5",
+      "tag": "new",
+      "meta": "Training & Placement Cell",
+      "audience": "Final Year Students",
+      "read": false,
+      "createdAt": "2026-05-20T11:45:00Z",
+      "priority": "high"
+    },
+    {
+      "id": "NOTIF005",
+      "title": "Fee payment deadline extended to May 28",
+      "tag": "alert",
+      "meta": "Finance Office",
+      "audience": "All Students",
+      "read": false,
+      "createdAt": "2026-05-19T16:20:00Z",
+      "priority": "high"
+    },
+    {
+      "id": "NOTIF006",
+      "title": "Annual cultural fest \"Utsav\" — registrations open",
+      "tag": "new",
+      "meta": "Student Council",
+      "audience": "All Students",
+      "read": true,
+      "createdAt": "2026-05-19T09:00:00Z",
+      "priority": "medium"
+    },
+    {
+      "id": "NOTIF007",
+      "title": "Wi-Fi maintenance downtime — May 22, 2-4 AM",
+      "tag": "alert",
+      "meta": "IT Services",
+      "audience": "All Students",
+      "read": true,
+      "createdAt": "2026-05-18T17:30:00Z",
+      "priority": "low"
+    },
+    {
+      "id": "NOTIF008",
+      "title": "Guest lecture on Quantum Computing — May 25",
+      "tag": "open",
+      "meta": "Computer Science Department",
+      "audience": "CS & ECE Students",
+      "read": false,
+      "createdAt": "2026-05-18T12:10:00Z",
+      "priority": "medium"
+    },
+    {
+      "id": "NOTIF009",
+      "title": "Scholarship applications for 2026-27 now open",
+      "tag": "new",
+      "meta": "Financial Aid Office",
+      "audience": "All Students",
+      "read": false,
+      "createdAt": "2026-05-17T10:00:00Z",
+      "priority": "high"
+    },
+    {
+      "id": "NOTIF010",
+      "title": "Lab safety orientation completed",
+      "tag": "read",
+      "meta": "Lab Administration",
+      "audience": "Semester 3 Students",
+      "read": true,
+      "createdAt": "2026-05-16T15:45:00Z",
+      "priority": "low"
+    }
+  ],
+  "classes": [
+    {
+      "id": "CLS001",
+      "course": "Data Structures & Algorithms",
+      "room": "LH-201",
+      "time": "09:30",
+      "endTime": "10:30",
+      "faculty": "Dr. Rajesh Kumar",
+      "attendance": 45,
+      "marked": true,
+      "material": true,
+      "department": "Computer Science",
+      "day": "Mon",
+      "type": "lecture"
+    },
+    {
+      "id": "CLS002",
+      "course": "Digital Signal Processing",
+      "room": "LH-105",
+      "time": "10:45",
+      "endTime": "11:45",
+      "faculty": "Prof. Meena Iyer",
+      "attendance": 38,
+      "marked": false,
+      "material": true,
+      "department": "Electronics",
+      "day": "Mon",
+      "type": "lecture"
+    },
+    {
+      "id": "CLS003",
+      "course": "Thermodynamics",
+      "room": "LH-302",
+      "time": "14:00",
+      "endTime": "15:00",
+      "faculty": "Dr. Suresh Babu",
+      "attendance": 42,
+      "marked": true,
+      "material": false,
+      "department": "Mechanical",
+      "day": "Tue",
+      "type": "lecture"
+    },
+    {
+      "id": "CLS004",
+      "course": "Machine Learning Lab",
+      "room": "CL-04",
+      "time": "11:00",
+      "endTime": "13:00",
+      "faculty": "Dr. Anjali Deshmukh",
+      "attendance": 36,
+      "marked": false,
+      "material": true,
+      "department": "Computer Science",
+      "day": "Wed",
+      "type": "lab"
+    },
+    {
+      "id": "CLS005",
+      "course": "Molecular Biology",
+      "room": "BT-Lab 2",
+      "time": "09:00",
+      "endTime": "11:00",
+      "faculty": "Prof. Kavitha Rao",
+      "attendance": 28,
+      "marked": true,
+      "material": true,
+      "department": "Biotechnology",
+      "day": "Wed",
+      "type": "lab"
+    },
+    {
+      "id": "CLS006",
+      "course": "Computer Networks",
+      "room": "LH-201",
+      "time": "15:30",
+      "endTime": "16:30",
+      "faculty": "Prof. Amit Saxena",
+      "attendance": 44,
+      "marked": false,
+      "material": false,
+      "department": "Computer Science",
+      "day": "Thu",
+      "type": "lecture"
+    },
+    {
+      "id": "CLS007",
+      "course": "Control Systems Tutorial",
+      "room": "TR-08",
+      "time": "13:00",
+      "endTime": "14:00",
+      "faculty": "Dr. Pradeep Nair",
+      "attendance": 35,
+      "marked": true,
+      "material": true,
+      "department": "Electronics",
+      "day": "Fri",
+      "type": "tutorial"
+    },
+    {
+      "id": "CLS008",
+      "course": "Engineering Drawing",
+      "room": "DH-01",
+      "time": "10:00",
+      "endTime": "12:00",
+      "faculty": "Prof. Sunil Patil",
+      "attendance": 40,
+      "marked": false,
+      "material": false,
+      "department": "Mechanical",
+      "day": "Fri",
+      "type": "lab"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ001",
+      "title": "Wi-Fi not working in Hostel Block C",
+      "status": "open",
+      "owner": "Arjun Sharma",
+      "eta": "2026-05-23",
+      "detail": "Intermittent connectivity issues in rooms 310-320. Signal drops frequently after 10 PM.",
+      "createdAt": "2026-05-19T09:30:00Z",
+      "priority": "high"
+    },
+    {
+      "id": "REQ002",
+      "title": "Request for grade re-evaluation — CS-501",
+      "status": "new",
+      "owner": "Vikram Mehta",
+      "eta": "2026-05-26",
+      "detail": "Believe there is an error in Q4 marking. Requesting re-evaluation of answer sheet.",
+      "createdAt": "2026-05-20T14:15:00Z",
+      "priority": "medium"
+    },
+    {
+      "id": "REQ003",
+      "title": "AC repair in Lecture Hall 201",
+      "status": "in-progress",
+      "owner": "Prof. Amit Saxena",
+      "eta": "2026-05-22",
+      "detail": "Air conditioning unit making loud noise and not cooling properly. Reported to maintenance.",
+      "createdAt": "2026-05-18T11:00:00Z",
+      "priority": "medium"
+    },
+    {
+      "id": "REQ004",
+      "title": "Lost ID card — need replacement",
+      "status": "resolved",
+      "owner": "Sneha Reddy",
+      "eta": "2026-05-20",
+      "detail": "Lost student ID card near the canteen. Replacement issued on May 20.",
+      "createdAt": "2026-05-16T08:45:00Z",
+      "priority": "low"
+    },
+    {
+      "id": "REQ005",
+      "title": "Lab equipment malfunction — Physics Lab",
+      "status": "open",
+      "owner": "Kavya Nair",
+      "eta": "2026-05-24",
+      "detail": "Oscilloscope #7 in Physics Lab is displaying erratic readings. Needs calibration or replacement.",
+      "createdAt": "2026-05-20T16:00:00Z",
+      "priority": "high"
+    },
+    {
+      "id": "REQ006",
+      "title": "Bus route change request — Route 4",
+      "status": "new",
+      "owner": "Manish Kumar",
+      "eta": "2026-06-01",
+      "detail": "Requesting an additional stop near Boring Road crossing for students from that area.",
+      "createdAt": "2026-05-21T07:20:00Z",
+      "priority": "low"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Arjun Sharma",
+      "email": "arjun.sharma@campusconnect.edu",
+      "department": "Computer Science",
+      "semester": 6,
+      "rollNo": "CS2023-001",
+      "attendance": 92,
+      "avatar": null,
+      "phone": "+91 98765 43210",
+      "dob": "2004-03-15",
+      "bloodGroup": "B+",
+      "address": "42, Rajpur Road, Dehradun, Uttarakhand"
+    },
+    {
+      "id": "STU002",
+      "name": "Priya Patel",
+      "email": "priya.patel@campusconnect.edu",
+      "department": "Electronics",
+      "semester": 4,
+      "rollNo": "EC2024-014",
+      "attendance": 88,
+      "avatar": null,
+      "phone": "+91 87654 32109",
+      "dob": "2005-07-22",
+      "bloodGroup": "A+",
+      "address": "15, MG Road, Ahmedabad, Gujarat"
+    },
+    {
+      "id": "STU003",
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@campusconnect.edu",
+      "department": "Mechanical",
+      "semester": 8,
+      "rollNo": "ME2022-007",
+      "attendance": 76,
+      "avatar": null,
+      "phone": "+91 76543 21098",
+      "dob": "2003-11-08",
+      "bloodGroup": "O+",
+      "address": "8, Sector 21, Noida, Uttar Pradesh"
+    },
+    {
+      "id": "STU004",
+      "name": "Ananya Singh",
+      "email": "ananya.singh@campusconnect.edu",
+      "department": "Biotechnology",
+      "semester": 5,
+      "rollNo": "BT2023-009",
+      "attendance": 95,
+      "avatar": null,
+      "phone": "+91 65432 10987",
+      "dob": "2004-09-30",
+      "bloodGroup": "AB+",
+      "address": "27, Banjara Hills, Hyderabad, Telangana"
+    },
+    {
+      "id": "STU005",
+      "name": "Vikram Mehta",
+      "email": "vikram.mehta@campusconnect.edu",
+      "department": "Computer Science",
+      "semester": 6,
+      "rollNo": "CS2023-018",
+      "attendance": 84,
+      "avatar": null,
+      "phone": "+91 54321 09876",
+      "dob": "2004-01-12",
+      "bloodGroup": "B-",
+      "address": "33, Koregaon Park, Pune, Maharashtra"
+    },
+    {
+      "id": "STU006",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@campusconnect.edu",
+      "department": "Electronics",
+      "semester": 3,
+      "rollNo": "EC2024-022",
+      "attendance": 91,
+      "avatar": null,
+      "phone": "+91 43210 98765",
+      "dob": "2005-12-05",
+      "bloodGroup": "A-",
+      "address": "56, Jubilee Hills, Hyderabad, Telangana"
+    },
+    {
+      "id": "STU007",
+      "name": "Aditya Joshi",
+      "email": "aditya.joshi@campusconnect.edu",
+      "department": "Mechanical",
+      "semester": 7,
+      "rollNo": "ME2022-031",
+      "attendance": 69,
+      "avatar": null,
+      "phone": "+91 32109 87654",
+      "dob": "2003-06-18",
+      "bloodGroup": "O-",
+      "address": "12, Shivaji Nagar, Pune, Maharashtra"
+    },
+    {
+      "id": "STU008",
+      "name": "Kavya Nair",
+      "email": "kavya.nair@campusconnect.edu",
+      "department": "Biotechnology",
+      "semester": 4,
+      "rollNo": "BT2024-005",
+      "attendance": 97,
+      "avatar": null,
+      "phone": "+91 21098 76543",
+      "dob": "2005-04-25",
+      "bloodGroup": "B+",
+      "address": "19, Marine Drive, Kochi, Kerala"
+    },
+    {
+      "id": "STU009",
+      "name": "Rahul Verma",
+      "email": "rahul.verma@campusconnect.edu",
+      "department": "Computer Science",
+      "semester": 5,
+      "rollNo": "CS2023-042",
+      "attendance": 81,
+      "avatar": null,
+      "phone": "+91 10987 65432",
+      "dob": "2004-08-03",
+      "bloodGroup": "A+",
+      "address": "7, Civil Lines, Jaipur, Rajasthan"
+    },
+    {
+      "id": "STU010",
+      "name": "Ishita Das",
+      "email": "ishita.das@campusconnect.edu",
+      "department": "Electronics",
+      "semester": 6,
+      "rollNo": "EC2023-011",
+      "attendance": 89,
+      "avatar": null,
+      "phone": "+91 99876 54321",
+      "dob": "2004-02-14",
+      "bloodGroup": "AB-",
+      "address": "24, Salt Lake, Kolkata, West Bengal"
+    },
+    {
+      "id": "STU011",
+      "name": "Manish Kumar",
+      "email": "manish.kumar@campusconnect.edu",
+      "department": "Mechanical",
+      "semester": 4,
+      "rollNo": "ME2024-016",
+      "attendance": 73,
+      "avatar": null,
+      "phone": "+91 88765 43210",
+      "dob": "2005-10-20",
+      "bloodGroup": "O+",
+      "address": "31, Boring Road, Patna, Bihar"
+    },
+    {
+      "id": "STU012",
+      "name": "Deepika Iyer",
+      "email": "deepika.iyer@campusconnect.edu",
+      "department": "Biotechnology",
+      "semester": 3,
+      "rollNo": "BT2025-003",
+      "attendance": 94,
+      "avatar": null,
+      "phone": "+91 77654 32109",
+      "dob": "2006-05-11",
+      "bloodGroup": "A+",
+      "address": "45, Adyar, Chennai, Tamil Nadu"
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEPT001",
+      "name": "Computer Science",
+      "code": "CS",
+      "head": "Dr. Rajesh Kumar",
+      "faculty": 24,
+      "students": 480,
+      "courses": 42,
+      "color": "#1e7a55"
+    },
+    {
+      "id": "DEPT002",
+      "name": "Electronics",
+      "code": "ECE",
+      "head": "Prof. Meena Iyer",
+      "faculty": 18,
+      "students": 360,
+      "courses": 36,
+      "color": "#2563eb"
+    },
+    {
+      "id": "DEPT003",
+      "name": "Mechanical",
+      "code": "ME",
+      "head": "Dr. Suresh Babu",
+      "faculty": 20,
+      "students": 400,
+      "courses": 38,
+      "color": "#d97706"
+    },
+    {
+      "id": "DEPT004",
+      "name": "Biotechnology",
+      "code": "BT",
+      "head": "Prof. Kavitha Rao",
+      "faculty": 14,
+      "students": 240,
+      "courses": 28,
+      "color": "#9333ea"
+    }
+  ],
+  "messages": [
+    {
+      "id": "MSG001",
+      "sender": "Arjun Sharma",
+      "receiver": "Vikram Mehta",
+      "text": "Hey, did you finish the DSA assignment? I'm stuck on the graph traversal question.",
+      "timestamp": "2026-05-21T10:15:00Z",
+      "read": true,
+      "channel": "academics"
+    },
+    {
+      "id": "MSG002",
+      "sender": "Vikram Mehta",
+      "receiver": "Arjun Sharma",
+      "text": "Yeah, try using BFS with a visited set. I can share my approach after class.",
+      "timestamp": "2026-05-21T10:18:00Z",
+      "read": true,
+      "channel": "academics"
+    },
+    {
+      "id": "MSG003",
+      "sender": "Priya Patel",
+      "receiver": "General",
+      "text": "Reminder: Cultural committee meeting at 5 PM in the seminar hall today.",
+      "timestamp": "2026-05-21T09:00:00Z",
+      "read": true,
+      "channel": "general"
+    },
+    {
+      "id": "MSG004",
+      "sender": "Ananya Singh",
+      "receiver": "General",
+      "text": "Has anyone collected their lab coats from the department office? They said last date is tomorrow.",
+      "timestamp": "2026-05-21T11:30:00Z",
+      "read": false,
+      "channel": "general"
+    },
+    {
+      "id": "MSG005",
+      "sender": "Kavya Nair",
+      "receiver": "Support",
+      "text": "The oscilloscope issue in Physics Lab still isn't resolved. Can someone follow up?",
+      "timestamp": "2026-05-21T14:00:00Z",
+      "read": false,
+      "channel": "support"
+    },
+    {
+      "id": "MSG006",
+      "sender": "Rahul Verma",
+      "receiver": "Arjun Sharma",
+      "text": "Are you going for the placement prep session this weekend?",
+      "timestamp": "2026-05-20T18:45:00Z",
+      "read": true,
+      "channel": "general"
+    },
+    {
+      "id": "MSG007",
+      "sender": "Sneha Reddy",
+      "receiver": "Priya Patel",
+      "text": "Can you share the DSP notes from Monday? I missed the class.",
+      "timestamp": "2026-05-20T20:10:00Z",
+      "read": true,
+      "channel": "academics"
+    },
+    {
+      "id": "MSG008",
+      "sender": "Aditya Joshi",
+      "receiver": "Support",
+      "text": "The projector in LH-302 has a flickering issue. Reported to IT but no response yet.",
+      "timestamp": "2026-05-19T12:30:00Z",
+      "read": true,
+      "channel": "support"
+    },
+    {
+      "id": "MSG1779384914798",
+      "sender": "student",
+      "receiver": "General",
+      "text": "Is this test working?",
+      "timestamp": "2026-05-21T17:35:14.798Z",
+      "read": true,
+      "channel": "general"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT001",
+      "title": "Campus Placement Drive — Infosys",
+      "date": "2026-06-05",
+      "time": "09:00",
+      "location": "Auditorium, Main Block",
+      "type": "placement",
+      "description": "On-campus recruitment for final year CS and ECE students. Bring 2 copies of resume and ID card.",
+      "joined": false
+    },
+    {
+      "id": "EVT002",
+      "title": "Annual Cultural Fest — Utsav 2026",
+      "date": "2026-06-12",
+      "time": "16:00",
+      "location": "Open Air Theatre",
+      "type": "cultural",
+      "description": "Three-day cultural extravaganza featuring music, dance, drama, and art competitions.",
+      "joined": false
+    },
+    {
+      "id": "EVT003",
+      "title": "Inter-Department Cricket Tournament",
+      "date": "2026-05-28",
+      "time": "07:00",
+      "location": "University Sports Ground",
+      "type": "sports",
+      "description": "T20 format tournament between all departments. Registration closes May 25.",
+      "joined": false
+    },
+    {
+      "id": "EVT004",
+      "title": "Guest Lecture — Quantum Computing",
+      "date": "2026-05-25",
+      "time": "14:00",
+      "location": "Seminar Hall, CS Block",
+      "type": "academic",
+      "description": "Talk by Dr. Srinivas Rao from IISc Bangalore on recent advances in quantum computing.",
+      "joined": false
+    },
+    {
+      "id": "EVT005",
+      "title": "AI/ML Workshop — Hands-on Session",
+      "date": "2026-06-10",
+      "time": "10:00",
+      "location": "Computer Lab 04",
+      "type": "academic",
+      "description": "Two-day intensive workshop covering neural networks, transformers, and practical model building.",
+      "joined": false
+    }
+  ],
+  "assignments": [
+    {
+      "id": "ASG001",
+      "title": "Graph Algorithms Implementation",
+      "course": "Data Structures & Algorithms",
+      "dueDate": "2026-05-25",
+      "status": "pending",
+      "marks": null,
+      "totalMarks": 50,
+      "description": "Implement BFS, DFS, Dijkstra's and Kruskal's algorithms with time complexity analysis."
+    },
+    {
+      "id": "ASG002",
+      "title": "Filter Design Report",
+      "course": "Digital Signal Processing",
+      "dueDate": "2026-05-23",
+      "status": "submitted",
+      "marks": null,
+      "totalMarks": 40,
+      "description": "Design and simulate a Butterworth low-pass filter with cutoff frequency analysis."
+    },
+    {
+      "id": "ASG003",
+      "title": "Heat Transfer Problem Set",
+      "course": "Thermodynamics",
+      "dueDate": "2026-05-18",
+      "status": "graded",
+      "marks": 38,
+      "totalMarks": 50,
+      "description": "Solve 10 problems on conduction, convection, and radiation heat transfer."
+    },
+    {
+      "id": "ASG004",
+      "title": "Neural Network from Scratch",
+      "course": "Machine Learning Lab",
+      "dueDate": "2026-05-30",
+      "status": "pending",
+      "marks": null,
+      "totalMarks": 60,
+      "description": "Build a multi-layer perceptron without frameworks. Include backpropagation and training loop."
+    },
+    {
+      "id": "ASG005",
+      "title": "PCR Experiment Report",
+      "course": "Molecular Biology",
+      "dueDate": "2026-05-15",
+      "status": "overdue",
+      "marks": null,
+      "totalMarks": 30,
+      "description": "Document the PCR amplification experiment with gel electrophoresis results and analysis."
+    },
+    {
+      "id": "ASG006",
+      "title": "Network Protocol Analysis",
+      "course": "Computer Networks",
+      "dueDate": "2026-06-02",
+      "status": "pending",
+      "marks": null,
+      "totalMarks": 40,
+      "description": "Capture and analyze TCP/IP packets using Wireshark. Submit annotated packet traces."
+    }
+  ],
+  "updatedAt": "2026-05-21T17:35:48.110Z"
+}
